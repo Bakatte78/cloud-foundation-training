@@ -57,7 +57,7 @@ resource "random_id" "suffix" {
  */
 
 resource "google_storage_bucket" "remote_state" {
-  name          = "cft-lab-state-Temi-${random_id.suffix.hex}" # Note the reference to the random_id block
+  name          = "cft-lab-state-temi-${random_id.suffix.hex}" # Note the reference to the random_id block
   location      = "US"
   force_destroy = true
   versioning {
