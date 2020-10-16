@@ -14,5 +14,5 @@
  * limitations under the License.
  */
 
-project_id = "" # Insert Project ID here
-region     = "" # Insert Region here
+project_id = "annular-heading-292710" # Insert Project ID here
+region     = "europe-west2" # Insert Region here
